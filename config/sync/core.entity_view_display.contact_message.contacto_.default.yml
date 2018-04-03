@@ -1,0 +1,30 @@
+uuid: f48d10ab-e00a-4deb-938d-8e5064f31336
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.contacto_
+    - field.field.contact_message.contacto_.field_edad
+  module:
+    - options
+id: contact_message.contacto_.default
+targetEntityType: contact_message
+bundle: contacto_
+mode: default
+content:
+  field_edad:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  message:
+    type: string
+    weight: 0
+    label: above
+    region: content
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden: {  }

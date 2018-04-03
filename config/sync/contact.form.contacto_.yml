@@ -1,0 +1,13 @@
+uuid: ad5aa3df-d25e-4499-8003-801bc6b49cda
+langcode: en
+status: true
+dependencies: {  }
+id: contacto_
+label: 'Contacto '
+recipients:
+  - malfare13@gmail.com
+  - malfare13@hotmail.com
+reply: ''
+weight: 0
+message: 'Thanks for contacting us!'
+redirect: ''

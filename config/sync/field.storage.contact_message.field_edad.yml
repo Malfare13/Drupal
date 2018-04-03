@@ -1,0 +1,33 @@
+uuid: 5ac58844-7366-4bc0-9af2-26d9562f810e
+langcode: en
+status: true
+dependencies:
+  module:
+    - contact
+    - options
+id: contact_message.field_edad
+field_name: field_edad
+entity_type: contact_message
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '18 o menos'
+      label: '18 o menos'
+    -
+      value: 19-20
+      label: 19-20
+    -
+      value: 21-30
+      label: 21-30
+    -
+      value: 31-40
+      label: 31-40
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

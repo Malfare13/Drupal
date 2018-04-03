@@ -1,0 +1,43 @@
+uuid: 0fa4e04f-54f9-4014-8c8b-b24f9a8bbfae
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.contacto_
+    - field.field.contact_message.contacto_.field_edad
+id: contact_message.contacto_.default
+targetEntityType: contact_message
+bundle: contacto_
+mode: default
+content:
+  copy:
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_edad:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  message:
+    type: string_textarea
+    weight: 2
+    settings:
+      rows: 12
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+  subject:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  mail: true
+  name: true
+  preview: true
