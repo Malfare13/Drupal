@@ -1,22 +1,23 @@
-uuid: 56c5c88b-524f-4b93-94ca-ad5d63b46479
+uuid: 2a53a530-30ea-4721-9c50-fe99f7f4fe52
 langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.featured
     - field.field.node.event.body
     - field.field.node.event.field_date
     - field.field.node.event.field_image
-    - image.style.medium
+    - image.style.large
     - node.type.event
   module:
     - datetime
     - image
     - text
     - user
-id: node.event.default
+id: node.event.featured
 targetEntityType: node
 bundle: event
-mode: default
+mode: featured
 content:
   body:
     label: hidden
@@ -39,7 +40,7 @@ content:
     weight: 0
     label: hidden
     settings:
-      image_style: medium
+      image_style: large
       image_link: ''
     third_party_settings: {  }
     type: image
