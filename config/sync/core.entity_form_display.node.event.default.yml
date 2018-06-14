@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.event.body
     - field.field.node.event.field_date
+    - field.field.node.event.field_email
     - field.field.node.event.field_image
     - image.style.thumbnail
     - node.type.event
@@ -39,6 +40,14 @@ content:
     third_party_settings: {  }
     type: datetime_default
     region: content
+  field_email:
+    weight: 26
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
   field_image:
     weight: 3
     settings:
@@ -47,6 +56,13 @@ content:
     third_party_settings: {  }
     type: image_image
     region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
   path:
     type: path
     weight: 8

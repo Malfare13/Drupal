@@ -1,0 +1,20 @@
+uuid: 2a7c3f34-88a0-4eb3-932c-2affd830e1a8
+langcode: en
+status: true
+dependencies:
+  module:
+    - drupal_itm_demos
+  theme:
+    - bootstrap_barrio
+id: bootstrap_barrio_informationblock
+theme: bootstrap_barrio
+region: sidebar_first
+weight: -6
+provider: null
+plugin: information_block
+settings:
+  id: information_block
+  label: 'Information block'
+  provider: drupal_itm_demos
+  label_display: visible
+visibility: {  }

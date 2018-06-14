@@ -1,0 +1,9 @@
+uuid: 65947622-c32b-4a5b-ae9e-488f82abfbad
+langcode: en
+status: true
+dependencies: {  }
+currencyCode: CRC
+name: 'Costa Rican Colón'
+numericCode: '188'
+symbol: CRC
+fractionDigits: 2

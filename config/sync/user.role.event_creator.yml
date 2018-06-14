@@ -8,6 +8,7 @@ weight: 3
 is_admin: null
 permissions:
   - 'access administration pages'
+  - 'access demo configuration'
   - 'access in-place editing'
   - 'create event content'
   - 'delete event revisions'

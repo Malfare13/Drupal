@@ -1,0 +1,21 @@
+uuid: b3210fd0-c22c-4bd5-97c6-615982a501cc
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_paypal
+id: paypal
+label: Paypal
+weight: null
+plugin: paypal_payflow
+configuration:
+  partner: '1'
+  vendor: '2'
+  user: admin
+  password: '123'
+  display_label: 'Credit Card'
+  mode: test
+  payment_method_types:
+    - credit_card
+conditions: {  }
+conditionOperator: AND

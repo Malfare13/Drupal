@@ -1,0 +1,9 @@
+uuid: 8a7e6cd9-9445-4485-9f9c-3f1616a6f8cd
+langcode: en
+status: true
+dependencies: {  }
+currencyCode: BZD
+name: 'Belize Dollar'
+numericCode: '084'
+symbol: BZD
+fractionDigits: 2

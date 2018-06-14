@@ -1,0 +1,20 @@
+uuid: 1b72cf53-2f08-4619-b0f5-3b9b0f65b844
+langcode: en
+status: true
+dependencies:
+  module:
+    - itm_lab3
+  theme:
+    - demo_theme
+id: dateblock
+theme: demo_theme
+region: sidebar_first
+weight: -5
+provider: null
+plugin: date_block
+settings:
+  id: date_block
+  label: 'Date block'
+  provider: itm_lab3
+  label_display: '0'
+visibility: {  }

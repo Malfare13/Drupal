@@ -1,0 +1,7 @@
+uuid: 1507a0fe-d75a-4066-8706-6fd119b6373f
+langcode: en
+status: true
+dependencies: {  }
+id: peso
+label: Peso
+elementType: commerce_product_rendered_attribute

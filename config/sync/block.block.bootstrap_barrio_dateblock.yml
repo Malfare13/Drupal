@@ -1,0 +1,20 @@
+uuid: f3af3753-7771-4e17-8f3f-9cb4f313e2b9
+langcode: en
+status: true
+dependencies:
+  module:
+    - itm_lab3
+  theme:
+    - bootstrap_barrio
+id: bootstrap_barrio_dateblock
+theme: bootstrap_barrio
+region: sidebar_first
+weight: -5
+provider: null
+plugin: date_block
+settings:
+  id: date_block
+  label: 'Date block'
+  provider: itm_lab3
+  label_display: '0'
+visibility: {  }

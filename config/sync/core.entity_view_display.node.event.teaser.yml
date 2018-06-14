@@ -5,24 +5,39 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.event.body
+    - field.field.node.event.field_date
+    - field.field.node.event.field_email
+    - field.field.node.event.field_image
     - node.type.event
   module:
-    - text
+    - datetime
+    - image
     - user
 id: node.event.teaser
 targetEntityType: node
 bundle: event
 mode: teaser
 content:
-  body:
-    label: hidden
-    type: text_summary_or_trimmed
-    weight: 101
+  field_date:
+    type: datetime_default
+    weight: 1
+    region: content
+    label: above
     settings:
-      trim_length: 600
+      format_type: medium
+      timezone_override: ''
     third_party_settings: {  }
+  field_image:
+    type: image
+    weight: 0
     region: content
-  links:
-    weight: 100
-    region: content
-hidden: {  }
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+hidden:
+  body: true
+  field_email: true
+  langcode: true
+  links: true

@@ -1,0 +1,22 @@
+uuid: df3b00d1-7f6f-4274-a452-c761a0038781
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - demo_theme
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: demo_theme_search
+theme: demo_theme
+region: sidebar_first
+weight: -8
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }
