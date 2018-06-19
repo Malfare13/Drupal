@@ -1,0 +1,15 @@
+uuid: 2d8b264a-268e-4cf4-8df7-1ad80ecc70d4
+langcode: en
+status: true
+dependencies: {  }
+name: cover
+label: Cover
+effects:
+  b6671466-b5d1-43ac-bf25-ffcecf6f16a5:
+    uuid: b6671466-b5d1-43ac-bf25-ffcecf6f16a5
+    id: image_scale
+    weight: 1
+    data:
+      width: 1280
+      height: 800
+      upscale: false

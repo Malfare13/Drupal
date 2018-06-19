@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.article.field_category_
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
+    - field.field.node.article.field_title
     - image.style.thumbnail
     - node.type.article
   module:
@@ -54,8 +55,8 @@ content:
     weight: 1
     region: content
     settings:
-      progress_indicator: throbber
       preview_image_style: thumbnail
+      progress_indicator: throbber
     third_party_settings: {  }
   field_tags:
     type: entity_reference_autocomplete
@@ -65,6 +66,21 @@ content:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
+    third_party_settings: {  }
+  field_title:
+    weight: 26
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
     third_party_settings: {  }
   path:
     type: path
